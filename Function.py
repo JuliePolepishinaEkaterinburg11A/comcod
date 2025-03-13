@@ -3,8 +3,8 @@ numbers = []
 for i in list:
   try:
     if int(i) == float(i):
-      if list.count(i) % 2 and !(i in list):
-        list.append(i)
+      if list.count(i) % 2 and !(i in numbers):
+        numbers.append(i)
   except:
     pass
 print(numbers)
